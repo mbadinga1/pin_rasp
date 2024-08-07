@@ -17,5 +17,6 @@ def blinking():
     time.sleep(1)
 
 if __name__ =="__main":
+    print('in main')
     while True:
         blinking()
